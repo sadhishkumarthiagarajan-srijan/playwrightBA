@@ -1,9 +1,9 @@
 pipeline {
    agent any
    stages {
-      stage('e2e-tests') {
+      stage('test') {
          steps {
-            sh 'mvn -B install -D skipTests --no-transfer-progress'
+
             sh 'mvn test'
          }
       }
