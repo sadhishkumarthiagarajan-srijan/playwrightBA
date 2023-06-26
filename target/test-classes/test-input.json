@@ -1,8 +1,8 @@
 {
   "LoginPage": {
 
-    "username": "x",
-    "password": "y",
+    "username": "standard-user",
+    "password": "secret_sauce",
     "url": "https://saucedemo.com"
   },
   "HomePage": {
