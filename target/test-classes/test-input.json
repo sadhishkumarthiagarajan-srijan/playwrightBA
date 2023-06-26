@@ -1,0 +1,15 @@
+{
+  "LoginPage": {
+
+    "username": "x",
+    "password": "y",
+    "url": "https://saucedemo.com"
+  },
+  "HomePage": {
+
+    "username": "x",
+    "password": "y",
+    "url": "z"
+  }
+
+}
