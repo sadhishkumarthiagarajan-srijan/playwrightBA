@@ -8,7 +8,7 @@ maven 'MAVEN'
          steps {
             echo 'hello world'
             sh 'mvn -B install -D skipTests --no-transfer-progress'
-            sh 'mvn test -DtestngFiles=testng.xml'
+            sh 'mvn -Dtest=LoginPage test'
 
 
          }
